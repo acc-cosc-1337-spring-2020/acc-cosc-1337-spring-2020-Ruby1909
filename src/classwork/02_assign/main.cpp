@@ -9,6 +9,7 @@ int main()
 {
 	//create a double variable named hours
 	//create a double variable named hourly_rate
+	//double hours (double hourly_rate
 
 	//Prompt user for keyboard input for hours and hourly_rate
 	//save the input to variables hours and hourly_rate
