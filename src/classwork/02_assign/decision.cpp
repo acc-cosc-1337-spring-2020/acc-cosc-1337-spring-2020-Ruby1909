@@ -7,7 +7,7 @@ double gross_pay(double hours, double hourly_rate)
 
 	if (hours > 40)
 	{
-		pay = pay + (hourly_rate * ((hours-40) * 1.5)); 
+		pay = pay + (hourly_rate * ((hours - 40) * 1.5)); 
 
 	}
 
