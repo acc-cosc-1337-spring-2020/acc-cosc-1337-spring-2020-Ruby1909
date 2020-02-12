@@ -8,5 +8,7 @@ TEST_CASE("Verify Test Configuration", "verification") {
 
 TEST_CASE("Test sum of square function")
 {
+	REQUIRE(sum_of_squares(3) == 14);
 	REQUIRE(sum_of_squares(4) == 30);
+	REQUIRE(sum_of_squares(5) == 55);
 }
