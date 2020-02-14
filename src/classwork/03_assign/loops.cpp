@@ -15,6 +15,11 @@ DON'T FORGET TO WRITE TEST CASE.  See file loop_test.cpp
 int factorial(int num)
 {
 	int Total = 1;
-	
+
+	do
+	{
+		int factorial;
+	}
+
 	return 0; 
 }
