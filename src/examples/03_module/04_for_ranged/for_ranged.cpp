@@ -17,7 +17,7 @@ t
 */
 void loop_string_w_index(const std::string & str)
 {
-	for (int i = 0; i < str.length(); ++i)
+	for (int i = 0; i < str.length(); ++i) 
 	{
 		std::cout << str[i] << "\n";
 	}
@@ -37,8 +37,9 @@ t
 */
 void loop_string_w_auto(const std::string & str)
 {
-	for (auto ch : str)
+	for (auto ch : str) 
 	{
 		std::cout << ch << "\n";
 	}
 }
+

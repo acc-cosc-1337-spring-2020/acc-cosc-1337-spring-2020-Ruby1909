@@ -21,5 +21,6 @@ int main()
 
 	cout << "Generation is: " << result;
 	
+	
 	return 0;
 }

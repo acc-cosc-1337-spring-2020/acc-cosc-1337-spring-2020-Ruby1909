@@ -1,8 +1,7 @@
-#include<iostream>
 #include<string>
 
-//Write function prototype named sum_of_squares that accepts an int and returns an int.
-//accepts an int and returns an int
+//Write function prototype named sum_of_squares that
+//accepts an int and returns an int.
 int sum_of_squares(int num);
 
 

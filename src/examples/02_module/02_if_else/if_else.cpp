@@ -12,7 +12,7 @@
 
 string get_generation(int year)
 {
-	if (year >= 1996 && year <= 2014)
+	if (year >= 1996 && year <= 2014) 
 	{
 		return "Centenial";
 	}
@@ -32,9 +32,9 @@ string get_generation(int year)
 	{
 		return "Silent Generation";
 	}
-	else
+	else 
 	{
-		return "Invalid year";
+		return "Invalid Year";
 	}
-	return string();
+	
 }

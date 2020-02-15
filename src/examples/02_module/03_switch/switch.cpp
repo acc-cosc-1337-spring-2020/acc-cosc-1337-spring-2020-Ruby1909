@@ -13,7 +13,7 @@ string menu(int num)
 {
 	string result;
 
-	switch (num)
+	switch (num) 
 	{
 	case 1:
 		result = "Option 1";
@@ -30,6 +30,6 @@ string menu(int num)
 	default:
 		result = "Invalid Option";
 	}
-	
+
 	return result;
 }

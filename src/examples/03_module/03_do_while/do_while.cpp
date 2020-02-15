@@ -8,20 +8,20 @@ using std::cout; using std::cin;
 //user opts not to continue.  
 void prompt_user()
 {
-	int choice; 
+	int choice;
 
 	do
 	{
 		int num;
 		cout << "Enter a number: ";
 		cin >> num;
-		cout << sum_of_squares(num) << "\n\n";
+		cout << sum_of_squares(num)<<"\n\n";
 
-		std::cout << "Continue: ";
-		std::cin >> choice;
+		cout << "Continue: ";
+		cin >> choice;
 
 	} while (choice == 1);
-
+	
 }
 
 //Write code for function run_menu that prompts  user for a 
@@ -31,5 +31,4 @@ Use the existing menu_option function from /example/02_module/03_switch
 folder.
 
 */
-
 
