@@ -1,5 +1,4 @@
 #include "loops.h"
-#include<iostream>
 /*
 WITH LOOP OF YOUR CHOICE:
 Write code for function factorial that accepts an int num
@@ -12,14 +11,15 @@ returns 120
 
 DON'T FORGET TO WRITE TEST CASE.  See file loop_test.cpp
 */
+
 int factorial(int num)
 {
-	int Total = 1;
+	int fact = 1;
 
-	do
+	for (int i = 1; i <= num; ++i)
 	{
-		int factorial;
+		fact = fact * i;
 	}
 
-	return 0; 
+	return fact;
 }
