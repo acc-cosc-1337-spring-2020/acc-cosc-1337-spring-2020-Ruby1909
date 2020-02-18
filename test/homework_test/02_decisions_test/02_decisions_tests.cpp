@@ -12,8 +12,8 @@ TEST_CASE("Verify get grade points")
 	REQUIRE(get_grade_points("C") == 2);
 	REQUIRE(get_grade_points("D") == 1);
 	REQUIRE(get_grade_points("F") == 0);
-
 }
+
 
 TEST_CASE("Verify function calculate gpa")
 {
