@@ -61,9 +61,9 @@ void loop_vector_w_auto(const std::vector<int>& nums)
 	}
 }
 
-void loop_vector_w_auto_ref(const std::vector<int>& nums)
+void loop_vector_w_auto_ref(std::vector<int>& nums)
 {
-	for (auto i : nums)
+	for (auto &i : nums)
 	{
 		i = 0;
 	}
@@ -71,8 +71,5 @@ void loop_vector_w_auto_ref(const std::vector<int>& nums)
 
 void loop_vector_w_auto_const(const std::vector<int>& nums)
 {
-	for (auto i : nums)
-	{
-		i = 0;
-	}
+	
 }
