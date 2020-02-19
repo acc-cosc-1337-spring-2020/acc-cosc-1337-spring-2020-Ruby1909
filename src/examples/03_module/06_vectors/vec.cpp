@@ -53,7 +53,7 @@ void loop_vector_w_index_ref_const(const std::vector<int> &nums)
 	}
 }
 
-void loop_vector_w_auto(const std::vector<int>& nums)
+void loop_vector_w_auto(std::vector<int>& nums)
 {
 	for (auto i : nums)
 	{
