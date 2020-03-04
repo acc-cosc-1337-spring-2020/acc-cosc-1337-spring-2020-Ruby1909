@@ -8,6 +8,10 @@ void BankAccount::deposit(int amount)
 	{
 		balance += amount; 
 	}
+	else
+	{
+		throw invalid("Amount must be greater than 0.");
+	}
 }
 
 void BankAccount::withdraw(int amount)
