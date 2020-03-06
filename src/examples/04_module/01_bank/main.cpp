@@ -16,6 +16,10 @@ int main()
 
 
 	BankAccount account(500);
+	std::cin >> account;
+	cout << account;
+	display_balance(account);
+
 	auto balance = account.get_balance();
 	cout << "Balance is: \n" << balance;
 
